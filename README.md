@@ -1,24 +1,26 @@
-# Envie
-Simple Operating System programs starting from Bootloader in assembly to Kernel in C, and other programs like OS Calculator, Low Level Graphics etc.
+# Envie ![Version](https://img.shields.io/badge/Version-0.0.1-green.svg)
+====
 
-Bootloader contains simple 16 bit as well as 32 bit OS bootloader assembly programs.
+Envie is a pure Go key/value store inspired by [Howard Chu's][hyc_symas]
+[LMDB project][lmdb]. The goal of the project is to provide a simple,
+fast, and reliable database for projects that don't require a full database
+server such as Postgres or MySQL.
 
-Kernel contains C programs for Simple HelloWorld, Keyboard I/O etc... and little bit assembly programs for low level operations.
+Since Envie is meant to be used as such a low-level piece of functionality,
+simplicity is key. The API will be small and only focus on getting values
+and setting values. That's it.
 
-Global_Descriptor_Table contains code that sets up GDT in both x86 NASM Assembly and in C.
+[hyc_symas]: https://twitter.com/hyc_symas
+[lmdb]: http://symas.com/mdb/
 
-Interrupt_Descriptor_Table contains code that sets up IDT in C with interrupt service routines.
+## Project Status
 
-GUI contains graphics related programs in C for drawing boxes, DOSBox GUI etc. 
+Currently under development. Based on a fork of [Bolt][bolt] called [BBolt][forked]
 
-x86 Calculator contains an x86 calculator program capable to run on booting.
+[bolt]: https://github.com/boltdb/bolt
+[forked]: https://github.com/etcd-io/bbolt
 
-Graphics contains simple low level pixels drawing, as well as objects such as Lines using DDA algorithm, Rectangles etc.
+## Credits
 
-VGA contains C kernel and assembly program for seeting up Video Graphics Array(VGA) and drawing some basic shapes by ploting pixels.
-
-Tic-Tac-Toe a simple tic-tac-toe DOS game with boxes.
-
-Pong-Game a simple Pong game using graphics.
-
-First read this page before you start: https://wiki.osdev.org/Beginner_Mistakes
+Aditya Patil: [AdityaCyberSafe][adigit]
+Bolt: [boltdb][boltgit]
