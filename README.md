@@ -23,4 +23,11 @@ Currently under development. Based on a fork of [Bolt][bolt] called [BBolt][fork
 ## Credits
 
 Aditya Patil: [AdityaCyberSafe][adigit]
+<br>
 Bolt: [boltdb][boltgit]
+<br>
+etcd.io [etcd-io][etcdgit]
+
+[adigit]: https://github.com/AdityaCyberSafe
+[boltgit]: https://github.com/boltdb
+[etcdgit]: https://github.com/etcd-io
